@@ -1,0 +1,55 @@
+/* Linkurile: */
+.nav-bar-link1{
+    margin-left: 60vmax;
+    margin-top: 0.5vmax;
+    margin-bottom: 0.5vmax;
+    width: 15vmax;
+    height: 5vmax;
+
+    color: black;
+    textDecoration: none;
+    font-size: 2vmax;
+    background-color: #144BB6;
+
+    border-radius: 0px 0px 0px 30px;
+    border: #282828 solid 5px;
+}
+
+
+.nav-bar-link2{
+    margin-left: 1vmax;
+    margin-top: 0.5vmax;
+    margin-bottom: 0.5vmax;
+    width: 15vmax;
+    height: 5vmax;
+
+    color: black;
+    textDecoration: none;
+    font-size: 2vmax;
+    background-color: #144BB6;
+
+    border-radius: 0px 0px 0px 30px;
+    border: #282828 solid 5px;
+}
+
+
+/*Pentru 2 hovers:*/
+.nav-bar-link1:hover{
+    background-color: #282828;
+    color: white;
+
+    /* padding-left: 3vmax !important;
+    padding-right: 3vmax !important; */
+
+    border-radius: 0px 0px 0px 30px;
+}
+
+.nav-bar-link2:hover{
+    background-color: #282828;
+    color: white;
+
+    /* padding-left: 3vmax !important;
+    padding-right: 3vmax !important; */
+
+    border-radius: 0px 0px 0px 30px;
+}

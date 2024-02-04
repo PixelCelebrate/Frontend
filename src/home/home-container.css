@@ -1,0 +1,290 @@
+.home{
+}
+
+.home-header {
+    color: #8e2807;
+}
+
+
+.home-p1 {
+    position: absolute;
+
+    margin-left: 36%;
+    margin-top: 3.75%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 4.25vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+
+.home-p2 {
+    position: absolute;
+
+    margin-left: 24%;
+    margin-top: 22.5%;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 3.5vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+
+.home-p3 {
+    position: absolute;
+
+    margin-left: 10%;
+    margin-top: 35%;
+
+    text-align-all: left;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 2vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+
+.home-p4 {
+    position: absolute;
+
+    margin-left: 55%;
+    margin-top: 35%;
+
+    text-align-all: left;
+
+    font-family: "Paprika";
+    font-style: normal;
+    font-size: 2vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+
+
+
+
+/* Titlul: */
+.home-divTitle {
+    margin-left: 27.5%;
+    margin-top: 2.5%;
+
+    width: 45vmax;
+    height: 9vmax;
+
+    position: absolute;
+
+    background: #B61616;
+    border-radius: 80px;
+    border: 6px solid #000000;
+    border-radius: 60px 60px 60px 60px;
+    z-index: 10;
+}
+
+
+.home-divTitleText {
+    position: absolute;
+
+    margin-top: 13.5vmax;
+
+    width: 100%;
+    height: 42vmax;
+
+    background: #D9D9D9;
+    border-radius: 50px 50px 0px 0px;
+}
+
+
+
+
+
+/* Pentru register and login: */
+.home-divCredentials {
+    width: 40vmax;
+    height: 30vmax;
+}
+
+.home-LoginRegisterText
+{
+    position: absolute;
+
+    margin-left: -1vmax;
+    margin-top: 5vmax;
+
+    width: 49vmax;
+    height: 20vmax;
+
+    background: #144BB6;
+    opacity: 0.6;
+    border: 8px solid #000000;
+    border-radius: 0px 120px 60px 0px;
+}
+
+.home-LoginRegisterTextP1 {
+    position: absolute;
+
+    margin-left: 6%;
+    margin-top: 10%;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 2vmax;
+
+    z-index: 10;
+}
+
+.home-LoginRegisterArrow {
+    box-sizing: border-box;
+
+    position: absolute;
+
+    margin-left: 36vmax;
+    margin-top: 20vmax;
+
+    width: 7vmax;
+    height: 0vmax;
+
+    border: 0.2vmax solid #E80C0C;
+}
+
+.home-LoginRegisterArrowUp {
+    box-sizing: border-box;
+
+    position: absolute;
+
+    margin-left: 41.3vmax;
+    margin-top: 19.4vmax;
+
+    width: 2vmax;
+    height: 0vmax;
+
+    border: 0.2vmax solid #E80C0C;
+
+    transform: rotate(40deg);
+}
+
+.home-LoginRegisterArrowDown {
+    box-sizing: border-box;
+
+    position: absolute;
+
+    margin-left: 41.3vmax;
+    margin-top: 20.5vmax;
+
+    width: 2vmax;
+    height: 0vmax;
+
+    border: 0.2vmax solid #E80C0C;
+
+    transform: rotate(-40deg);
+}
+
+.home-LoginRegisterButtons {
+    position: absolute;
+
+    margin-left: 49vmax;
+    margin-top: 5vmax;
+
+    width: 48vmax;
+    height: 20vmax;
+
+    background: #144BB6;
+    opacity: 0.6;
+    border: 8px solid #000000;
+    border-radius: 60px 0px 0px 120px;
+}
+
+
+/* Login: */
+.home-loginStyle {
+    position: absolute !important;
+
+    margin-top: 8vmax !important;
+    margin-left: 42vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 3vmax !important;
+}
+
+.home-loginStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}
+
+
+/* Register: */
+.home-registerStyle {
+    position: absolute !important;
+
+    margin-top: 15vmax !important;
+    margin-left: 42vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 3vmax !important;
+}
+
+.home-registerStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}
+
+
+
+/* Logout: */
+.home-userUsernameData {
+    position: absolute;
+
+    margin-top: 9vmax !important;
+    margin-left: 65vmax !important;
+
+    font-family: "Paprika";
+    font-style: italic;
+    font-size: 2.25vmax;
+
+    z-index: 10;
+}
+
+.home-logoutStyle {
+    position: absolute !important;
+
+    margin-top: 15vmax !important;
+    margin-left: 42vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    font-size: 3vmax !important;
+}
+
+.home-logoutStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}

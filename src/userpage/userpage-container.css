@@ -1,0 +1,380 @@
+.userpage {
+    color: #8e2807;
+}
+
+
+/* Paragraf: */
+.userpage-p1 {
+    position: absolute;
+
+    margin-left: 34%;
+    margin-top: 3.75%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 4.25vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+.userpage-p1-employee {
+    position: absolute;
+
+    margin-left: 36.5%;
+    margin-top: 3.75%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 4.25vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+
+.userpage-p2 {
+    position: absolute;
+
+    margin-left: 36%;
+    margin-top: 3.75%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 4.25vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+
+
+/* Titlu: */
+.userpage-divTitle {
+    margin-left: 27.5%;
+    margin-top: 2.5%;
+
+    width: 45vmax;
+    height: 9vmax;
+
+    position: absolute;
+
+    background: #B61616;
+    border-radius: 80px;
+    border: 6px solid #000000;
+    border-radius: 60px 60px 60px 60px;
+    z-index: 10;
+}
+
+.userpage-divTitleText {
+    position: absolute;
+
+    margin-top: 13.5vmax;
+
+    width: 100%;
+    height: 42vmax;
+
+    background: #D9D9D9;
+    border-radius: 50px 50px 0px 0px;
+}
+
+
+
+/* Crud: */
+.userpage-addUserStyle {
+    position: absolute !important;
+
+    margin-top: 20vmax !important;
+    margin-left: 5vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 100px 100px 100px 100px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 3vmax !important;
+
+    z-index: 10;
+}
+
+.userpage-addUserStyle:hover {
+    background-color: white !important;
+    border-radius: 50px 50px 50px 50px !important;
+}
+
+
+.userpage-updateUserStyle {
+    position: absolute !important;
+
+    margin-top: 20vmax !important;
+    margin-left: 37.5vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 100px 100px 100px 100px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 3vmax !important;
+
+    z-index: 10;
+}
+
+.userpage-updateUserStyle:hover {
+    background-color: white !important;
+    border-radius: 50px 50px 50px 50px !important;
+}
+
+
+.userpage-deleteUserStyle {
+    position: absolute !important;
+
+    margin-top: 20vmax !important;
+    margin-left: 70vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 100px 100px 100px 100px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 3vmax !important;
+
+    z-index: 10;
+}
+
+.userpage-deleteUserStyle:hover {
+    background-color: white !important;
+    border-radius: 50px 50px 50px 50px !important;
+}
+
+.userpage-numberOfDaysStyle {
+    position: absolute !important;
+
+    margin-top: 37.5vmax !important;
+    margin-left: 37.5vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 100px 100px 100px 100px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 3vmax !important;
+
+    z-index: 10;
+}
+
+.userpage-numberOfDaysStyle:hover {
+    background-color: white !important;
+    border-radius: 50px 50px 50px 50px !important;
+}
+
+
+
+/* Tabel admin si client: */
+.userpage-tableAdmin {
+    margin-left: 3.5vmax;
+    margin-top: 63vmax;
+
+    width: 90vmax;
+    height: 10vmax;
+
+    position: absolute;
+
+    /* background-color: black !important; */
+    z-index: 10;
+}
+
+.userpage-tableEmployee {
+    margin-left: 3.5vmax;
+    margin-top: 63vmax;
+
+    width: 90vmax;
+    height: 10vmax;
+
+    position: absolute;
+
+    z-index: 10;
+}
+
+
+.userpage-blackBar {
+    /* margin-left: 1vmax;
+    margin-top: 1vmax; */
+
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 30px 30px 30px 30px !important;
+    border: #000000 solid 10px !important;
+
+    /* width: 100vmax; */
+    width: 100%;
+    height: 5vmax;
+
+    position: absolute;
+
+    z-index: 5;
+}
+
+
+/* User data: */
+.userpage-firstNameField {
+    position: absolute !important;
+
+    margin-top: 20vmax !important;
+    margin-left: 17vmax !important;
+
+    width: 20vmax !important;
+    height: 5vmax !important;
+
+    background-color: #144BB6 !important;
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 2vmax !important;
+
+    z-index: 10 !important;
+}
+
+.userpage-lastNameField {
+    position: absolute !important;
+
+    margin-top: 20vmax !important;
+    margin-left: 39vmax !important;
+
+    width: 20vmax !important;
+    height: 5vmax !important;
+
+    background-color: #144BB6 !important;
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 2vmax !important;
+
+    z-index: 10 !important;
+}
+
+.userpage-userNameField {
+    position: absolute !important;
+
+    margin-top: 20vmax !important;
+    margin-left: 61vmax !important;
+
+    width: 20vmax !important;
+    height: 5vmax !important;
+
+    background-color: #144BB6 !important;
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 2vmax !important;
+
+    z-index: 10 !important;
+}
+
+/* .userpage-passwordField {
+    position: absolute !important;
+
+    margin-top: 20vmax !important;
+    margin-left: 19vmax !important;
+
+    width: 20vmax !important;
+    height: 5vmax !important;
+
+    background-color: #144BB6 !important;
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 2vmax !important;
+
+    z-index: 10 !important;
+} */
+
+.userpage-birthdayField {
+    position: absolute !important;
+
+    margin-top: 32vmax !important;
+    margin-left: 17vmax !important;
+
+    width: 20vmax !important;
+    height: 5vmax !important;
+
+    background-color: #144BB6 !important;
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 2vmax !important;
+
+    z-index: 10 !important;
+}
+
+.userpage-roleField {
+    position: absolute !important;
+
+    margin-top: 32vmax !important;
+    margin-left: 39vmax !important;
+
+    width: 20vmax !important;
+    height: 5vmax !important;
+
+    background-color: #144BB6 !important;
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 2vmax !important;
+
+    z-index: 10 !important;
+}
+
+.userpage-emailField {
+    position: absolute !important;
+
+    margin-top: 32vmax !important;
+    margin-left: 61vmax !important;
+
+    width: 20vmax !important;
+    height: 5vmax !important;
+
+    background-color: #144BB6 !important;
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 2vmax !important;
+
+    z-index: 10 !important;
+}
+
+.userpage-dateOfJoiningField {
+    position: absolute !important;
+
+    margin-top: 44vmax !important;
+    margin-left: 17vmax !important;
+
+    width: 20vmax !important;
+    height: 5vmax !important;
+
+    background-color: #144BB6 !important;
+    color: black !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: #000000 solid 5px !important;
+
+    font-size: 2vmax !important;
+
+    z-index: 10 !important;
+}
